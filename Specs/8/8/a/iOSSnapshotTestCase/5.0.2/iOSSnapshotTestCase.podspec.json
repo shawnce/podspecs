@@ -1,7 +1,7 @@
 {
   "name": "iOSSnapshotTestCase",
   "module_name": "FBSnapshotTestCase",
-  "version": "6.0.0",
+  "version": "5.0.2",
   "summary": "Snapshot view unit tests for iOS",
   "description": "A \"snapshot test case\" takes a configured UIView or CALayer\nand uses the renderInContext: method to get an image snapshot\nof its contents. It compares this snapshot to a \"reference image\"\nstored in your source code repository and fails the test if the\ntwo images don't match.",
   "homepage": "https://github.com/uber/ios-snapshot-test-case",
@@ -9,10 +9,10 @@
   "authors": "Uber",
   "source": {
     "git": "https://github.com/uber/ios-snapshot-test-case.git",
-    "tag": "6.0.0"
+    "tag": "5.0.2"
   },
   "platforms": {
-    "ios": "10.0",
+    "ios": "8.1",
     "tvos": "9.0"
   },
   "requires_arc": true,
